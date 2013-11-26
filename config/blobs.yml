@@ -23,3 +23,8 @@ ruby/ruby-1.9.3-p392.tar.gz:
   object_id: rest/objects/4e4e78bca61e121204e4e86eebe5910513a3270968f3
   sha: ec75fcbd3b6b46ce6ec997ee4c86145b4abd5748
   size: 12557294
+ruby/ruby-1.9.3-p484.tar.gz:
+  object_id: 51971a13-94b2-4ef7-8c00-3e67832820f6
+  sha: !binary |-
+    NmFlODBmNDI0OTY4YjVjZTY2MWVlOWIyYmVlMWMyMWFkYzllZTY3Yw==
+  size: 12576996
