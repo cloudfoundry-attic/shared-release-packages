@@ -10,7 +10,7 @@ tar xzf ruby/ruby-${RUBY_VERSION}.tar.gz
 (
   cd ruby-${RUBY_VERSION}
   ./configure --prefix=${BOSH_INSTALL_TARGET} --disable-install-doc --with-opt-dir=/var/vcap/packages/libyaml
-  make
+  make -j 3   # 3 compile threads
   make install
 )
 
