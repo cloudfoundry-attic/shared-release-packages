@@ -135,3 +135,8 @@ file_must_include() {
     exit 1
   fi
 }
+
+log(){
+  message=$1
+  echo "$(date +"%Y-%m-%d %H:%M:%S") ----- $message"
+}
