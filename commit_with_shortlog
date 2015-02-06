@@ -1,1 +1,1 @@
-git ci -m "`./staged_shortlog`"
+./staged_shortlog | git ci -F -
