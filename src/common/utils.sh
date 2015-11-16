@@ -45,7 +45,7 @@ wait_pidfile() {
       while [ -e /proc/$pid ]; do
         sleep 0.1
         [ "$countdown" != '0' -a $(( $countdown % 10 )) = '0' ] && echo -n .
-        if [ $timeout -gt 0 ]; then
+        if [ $timeout -ge 0 ]; then
           if [ $countdown -eq 0 ]; then
             if [ "$force" = "1" ]; then
               echo -ne "\nKill timed out, using kill -9 on $pid... "
